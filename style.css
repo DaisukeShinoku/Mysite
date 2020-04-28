@@ -1,0 +1,38 @@
+ /* ブラウザがそれぞれ持っているCSSをリセットするため */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+	width: 100%;
+	height: 70px;
+	background-color: #EC715F;
+}
+
+.header-content{
+	width: 1024px;
+	margin: 0 auto;
+}
+
+.header-image{
+	float: left;
+}
+
+.header-image img{
+	height: 70px;
+	width: auto;
+}
+
+.nav-list{
+	text-align: right;
+	font-size: 16px;
+	color: #fafafa;
+}
+
+.nav-list-item{
+	margin: auto 30px;
+	list-style: none;
+	display: inline-block;
+	line-height: 70px;
+}
